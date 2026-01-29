@@ -29,7 +29,7 @@ public class ListenerUtility implements ITestListener, ISuiteListener {
 
         String timedate = LocalDateTime.now().toString().replace(":", "-");
 
-        ExtentSparkReporter spark = new ExtentSparkReporter("./Advencereport/report--" + timedate + ".html");
+        ExtentSparkReporter spark = new ExtentSparkReporter("./Advencedreport/report--" + timedate + ".html");
         spark.config().setDocumentTitle("CRM Test Suite");
         spark.config().setReportName("CRM Automation Report");
         spark.config().setTheme(Theme.DARK);
