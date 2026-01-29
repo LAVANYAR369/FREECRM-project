@@ -1,0 +1,5 @@
+key 	value
+browser chrome
+url https://ui.freecrm.com/
+USERNAME krmlavanya@gmail.com
+PASSWORD Krmlavanya@123

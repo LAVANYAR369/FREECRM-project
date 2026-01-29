@@ -1,0 +1,16 @@
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.crm.FreeCRMTest.MainTestScript.CalenderEvent"/>
+      <class name="com.crm.FreeCRMTest.MainTestScript.CreateContactToDeal"/>
+      <class name="com.crm.FreeCRMTest.MainTestScript.EndToEndTestFlow"/>
+      <class name="com.crm.FreeCRMTest.MainTestScript.SearchContactTaskTest"/>
+      <class name="com.crm.FreeCRMTest.MainTestScript.CompanyToTaskFlowTest"/>
+      <class name="com.crm.FreeCRMTest.MainTestScript.CreateCompanyTest"/>
+      <class name="com.crm.FreeCRMTest.MainTestScript.DeleteContactTest"/>
+      <class name="com.crm.FreeCRMTest.MainTestScript.GenerateDealTest"/>
+      <class name="com.crm.FreeCRMTest.MainTestScript.InvoiceWithProductTest"/>
+    </classes>
+  </test> 
+</suite> 
