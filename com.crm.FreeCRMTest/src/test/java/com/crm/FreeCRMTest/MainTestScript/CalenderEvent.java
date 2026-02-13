@@ -40,6 +40,7 @@ public class CalenderEvent extends BaseClass {
 	SoftAssert sof=new SoftAssert();
 	sof.assertEquals(caseName,expected) ;
 	sof.assertAll();
+	System.out.println(eveName);
 }
 
 }
